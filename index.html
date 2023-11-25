@@ -13,55 +13,69 @@
     </header>
 </head>
 <body>
+    <table> 
     <div class="form">
         <form action="#">
-            <p>
-                <label for="customerID">Customer ID :</label>
-                <input type="text" name="customerID" id="customerID" placeholder="Enter your customerID" required>
-            </p>
-            <p>
-                <label for="name">Name :</label>
-                <input type="text" name="name" id="name" placeholder="Enter your name" required>
-            </p>
+            <tr>
+                <td><label for="customerID">Customer ID :</label></td>
+                <td><input type="text" name="customerID" id="customerID" placeholder="Enter your customerID" required></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name :</label></td>
+                <td><input type="text" name="name" id="name" placeholder="Enter your name" required></td>
+            </tr>
 
-            <p>
-                <label for="emel">E-mail:</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
-            </p>
+            <tr>
+                <td><label for="emel">E-mail:</label></td>
+                <td><input type="email" name="email" id="email" placeholder="Enter your email address" required></td>
+            </tr>
 
-            <p>
-                <label for="phone">Telephone No. :</label>
-                <input type="text" name="phone_no" id="phone_no" placeholder="Enter your phone number ( Example: 01X-XXXXXXXX )" required>
-            </p>
+            <tr>
+                <td><label for="phone">Telephone No. :</label></td>
+                <td><input type="text" name="phone_no" id="phone_no" placeholder="Enter your phone number ( Example: 01X-XXXXXXXX )" required></td>
+            </tr>
 
-            <p>
-                <label for="address">Address :</label>
-                <textarea name="address" id="address" placeholder="Enter your address" required></textarea>
-            </p>
+            <tr>
+                <td><label for="address">Address :</label></td>
+                <td><textarea name="address" id="address" placeholder="Enter your address" required></textarea></td>
+            </tr>
 
-            <p>
-                <label for="unitConsumed">Unit Consumed:</label>
-                <input type="text" id="unitConsumed" name="unitConsumed"  placeholder="Enter your unit consumed" required>
-            </p>
+            <tr>
+                <td><label for="unitConsumedd">Unit Consumed:</label></td>
+                <td><input type="text" id="unitConsumed" name="unitConsumed"  placeholder="Enter your unit consumed" required></td>
+            </tr>
+        </table>
 
             <h1> Customer Descriptions</h1>
-            <label for="customerID">Customer ID :</label>
-            <p class="output" id="output1"></p>
+            <table> 
+            <tr>
+            <td><label for="customerID">Customer ID :</label></td>
+            <td><p class="output" id="output1"></p></td>
+            </tr>
 
-            <label for="name">Your Name :</label>
-            <p class="output" id="output2"></p>
+            <tr>
+            <td><label for="name">Your Name :</label></td>
+            <td><p class="output" id="output2"></p></td>
+            </tr>
 
-            <label for="emel">Your E-mail:</label>
-            <p class="output" id="output3"></p>
+            <tr>
+            <td><label for="emel">Your E-mail:</label></td>
+            <td><p class="output" id="output3"></p></td>
+            </tr>
 
-            <label for="phone">Your Telephone No. :</label>
-            <p class="output" id="output4"></p>
+            <tr>
+            <td><label for="phone">Your Telephone No. :</label></td>
+            <td><p class="output" id="output4"></p></td>
+            </tr>
 
-            <label for="address">Your Address :</label>
-            <p class="output" id="output5"></p>
+            <tr>
+            <td><label for="address">Your Address :</label></td>
+            <td><p class="output" id="output5"></p></td>
+            </tr>
+            </table>
            
             <h1>Bill</h1>
-            <table > 
+            <table> 
             <tr>
                 <th><label for="unitConsumed">Unit Consumed</label></th>
                 <th><label for="amountCharges">Amount Charges Per Unit (RM)</label></th>
@@ -69,9 +83,9 @@
             </tr>
 
             <tr>
-                <td><p class="output1" id="output6"></p></td>
-                <td><p class="output1" id="output7"></p></td>
-                <td><p class="output1" id="output8"></p></td>
+                <th><p class="output1" id="output6"></p></th>
+                <th><p class="output1" id="output7"></p></th>
+                <th><p class="output1" id="output8"></p></th>
             </tr>
              
              <tr>
