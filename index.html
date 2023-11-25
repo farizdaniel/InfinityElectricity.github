@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Infinity  Electricity Bill Form </title>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Shade&family=Kdam+Thmor+Pro&family=Montserrat+Subrayada:wght@700&family=Orbitron:wght@500&family=Oxygen+Mono&family=Press+Start+2P&family=Sarpanch:wght@500&family=Staatliches&family=Tourney:ital,wght@0,100;0,200;0,300;1,100;1,400&family=Vina+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script1.js"></script>
+    <header>
+    	∞ Infinity Electricity Bill 🗲
+    </header>
+</head>
+<body>
+    <div class="form">
+        <form action="#">
+            <p>
+                <label for="customerID">Customer ID :</label>
+                <input type="text" name="customerID" id="customerID" placeholder="Enter your customerID" required>
+            </p>
+            <p>
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </p>
+
+            <p>
+                <label for="emel">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            </p>
+
+            <p>
+                <label for="phone">Telephone No. :</label>
+                <input type="text" name="phone_no" id="phone_no" placeholder="Enter your phone number ( Example: 01X-XXXXXXXX )" required>
+            </p>
+
+            <p>
+                <label for="address">Address :</label>
+                <textarea name="address" id="address" placeholder="Enter your address" required></textarea>
+            </p>
+
+            <p>
+                <label for="unitConsumed">Unit Consumed:</label>
+                <input type="text" id="unitConsumed" name="unitConsumed"  placeholder="Enter your unit consumed" required>
+            </p>
+
+            <h1> Customer Descriptions</h1>
+            <label for="customerID">Customer ID :</label>
+            <p class="output" id="output1"></p>
+
+            <label for="name">Your Name :</label>
+            <p class="output" id="output2"></p>
+
+            <label for="emel">Your E-mail:</label>
+            <p class="output" id="output3"></p>
+
+            <label for="phone">Your Telephone No. :</label>
+            <p class="output" id="output4"></p>
+
+            <label for="address">Your Address :</label>
+            <p class="output" id="output5"></p>
+           
+            <h1>Bill</h1>
+            <table > 
+            <tr>
+                <th><label for="unitConsumed">Unit Consumed</label></th>
+                <th><label for="amountCharges">Amount Charges Per Unit (RM)</label></th>
+                <th><label for="surcharge">Surchage (15% above 400 unit) (RM)</label></th>
+            </tr>
+
+            <tr>
+                <td><p class="output1" id="output6"></p></td>
+                <td><p class="output1" id="output7"></p></td>
+                <td><p class="output1" id="output8"></p></td>
+            </tr>
+             
+             <tr>
+                 <th colspan="2"><label for="netAmount">Net Amount (RM)</label></th>
+                 <td><p class="output1" id="output9"></p></td>
+             </tr>
+            </table>
+             
+            <p>
+                <input type="button" id="btn1" value="Submit" onclick="submitForm()">
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+        <footer>
+            <div class="footer">
+                Copyright &copy; Infinity Electricity | All Rights Reserved
+            </div>
+        </footer>     
+    </body>
+</html>
+

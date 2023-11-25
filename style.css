@@ -1,0 +1,167 @@
+/* Header styling */
+header {
+    background-color: #3B3546;
+    text-align: center;
+    font-family: 'Tourney', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+}
+
+/* Body styling */
+body {
+    background-color: #97B6F0;
+}
+
+/* Form label styling */
+form label {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+/* Form input styling */
+form input {
+    width: 444px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 2px;
+    border: 3px solid;
+    margin-left: 420px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/* Form textarea styling */
+form textarea {
+    width: 444px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 2px;
+    border: 3px solid;
+    margin-left: 420px;
+    margin-bottom: 5px;
+    font-family: Arial;
+}
+
+/* Both Button styling */
+button, input[type="button"] {
+    --background-color: #4160FD;
+    --background-color-dark: #400C96;
+
+    color: white;
+    width: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+     
+    margin-left: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    background-color: var(--background-color);
+    box-shadow: 6px 6px 0 var(--background-color-dark);
+    font-family: 'Sarpanch', sans-serif;
+}
+
+/* Button Reset hover styling */
+button:hover, button[type="reset"]:hover {
+    background-color: #F48688;
+    color: black;
+    font-weight: bold;
+}
+
+/* Button Submit hover styling */
+button:hover, input[type="button"]:hover {
+    background-color: #81EAD9;
+    color: black;
+    font-weight: bold;
+     
+}
+
+button:active, input[type="button"]:active {
+    transform: translateX(5px) translateY(2px);
+}
+
+/* H1 styling */
+h1 {
+    background-color: #400C96;
+    text-align: center;
+    font-family: 'Sarpanch', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 18px;
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 420px;
+}
+
+/* Output styling */
+.output {
+    width: 440px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 2px;
+    border: 3px solid;
+    margin-left: 420px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+/* Output1 styling */
+.output1 {
+    width: 80px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 2px;
+    border: 3px solid black;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+/* Only spcify table label styling */
+table label[for="unitConsumed"],table label[for="amountCharges"],
+table label[for="surcharge"],table label[for="netAmount"] {
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Oxygen Mono', sans-serif;
+}
+
+/* Table styling */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Table header and cell styling */
+th, td {
+    border: 5px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Only specify table header styling */
+th {
+    background-color: #400C96;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
+    background-color: #3B3546;
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
